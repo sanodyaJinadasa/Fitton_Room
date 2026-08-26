@@ -110,3 +110,20 @@
         }
     </style>
 </head>
+<body>
+
+    <div class="container">
+        <div class="subtitle">Virtual Fitting Room</div>
+        <h2>Your Fitting Result</h2>
+        
+        <div class="image-wrapper">
+            <img src="data:image/png;base64,{{ $image }}" alt="Virtual Fitting Result">
+        </div>
+
+        <div class="actions">
+            <a href="{{ url('/') }}" class="btn">Try Another Style</a>
+        </div>
+    </div>
+
+</body>
+</html>
