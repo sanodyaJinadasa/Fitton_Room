@@ -1,6 +1,3 @@
-<!-- <h2>Your Virtual Fitting Result</h2>
-<img src="data:image/png;base64,{{ $image }}" alt="Result"><br>
-<a href="{{ url('/') }}">Try Another</a> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -124,6 +121,11 @@
             <a href="{{ url('/') }}" class="btn">Try Another Style</a>
         </div>
     </div>
+
+    <!-- <h2>Your Virtual Fitting Result</h2>
+    <img src="data:image/png;base64,{{ $image }}" alt="Result"><br>
+    <a href="{{ url('/') }}">Try Another</a> -->
+
 
 </body>
 </html>
